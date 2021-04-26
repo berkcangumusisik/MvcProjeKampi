@@ -78,15 +78,15 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Entity\EntityLayer.csproj">
-      <Project>{d20632cd-1940-4fa3-aa09-96c143e5f330}</Project>
-      <Name>EntityLayer</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="Migrations\202104161347026_mig1.resx">
       <DependentUpon>202104161347026_mig1.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entity\EntityLayer.csproj">
+      <Project>{D20632CD-1940-4FA3-AA09-96C143E5F330}</Project>
+      <Name>EntityLayer</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
