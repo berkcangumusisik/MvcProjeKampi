@@ -1,0 +1,12 @@
+C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\Entity\bin\Debug\Entity.dll.config
+C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\Entity\bin\Debug\Entity.dll
+C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\Entity\bin\Debug\Entity.pdb
+C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\Entity\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\Entity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\Entity\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\Entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\Entity\obj\Debug\EntityLayer.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\Entity\obj\Debug\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\Entity\obj\Debug\EntityLayer.csproj.CopyComplete
+C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\Entity\obj\Debug\Entity.dll
+C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\Entity\obj\Debug\Entity.pdb
