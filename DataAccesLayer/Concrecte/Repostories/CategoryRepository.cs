@@ -10,7 +10,7 @@ using EntityLayer.Concrete;
 
 namespace DataAccesLayer.Concrecte.Repostories
 {
-    public class CategoryRepository : ICategoryDal
+    public class CategoryRepository : ICategorydal
     {
         Context c = new Context();
         DbSet<Category> _object;
@@ -19,6 +19,11 @@ namespace DataAccesLayer.Concrecte.Repostories
         {
             _object.Remove(p);
             c.SaveChanges();
+        }
+
+        public Category Get(Expression<Func<Category, bool>> filter)
+        {
+            throw new NotImplementedException();
         }
 
         public void Insert(Category p)
