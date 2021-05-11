@@ -14,7 +14,7 @@ Eğitime ulaşmak için [tıklayınız](https://www.youtube.com/watch?v=yFToRUL6
   <li>Veritabanı desteği eklendi ve gerekli entegrasyonlar yapıldı.</li>
 </ol>
 <hr>
-##  2. SERTİFİKA GÖREVİNE KADAR YAPILANLAR
+### 2. SERTİFİKA GÖREVİNE KADAR YAPILANLAR
 <ol>
   <li>Seçilen Admin paneli yüklendi </li>
   <li>Seçilen Admin panelinin değişiklikleri yapılarak kendi temamıza göre güncelledik</li>
