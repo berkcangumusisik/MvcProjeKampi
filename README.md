@@ -13,7 +13,7 @@ Eğitime ulaşmak için [tıklayınız](https://www.youtube.com/watch?v=yFToRUL6
   <li>Business Layer ve Data Access Layer Entity Framework desteği eklendi.</li>
   <li>Veritabanı desteği eklendi ve gerekli entegrasyonlar yapıldı.</li>
 </ol>
-<hr>
+
 ## 2. SERTİFİKA GÖREVİNE KADAR YAPILANLAR
 <ol>
   <li>Seçilen Admin paneli yüklendi </li>
