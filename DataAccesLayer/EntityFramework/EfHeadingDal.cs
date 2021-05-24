@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DataAccesLayer.Abstract;
+using DataAccesLayer.Concrecte.Repostories;
+using EntityLayer.Concrete;
 
 namespace DataAccesLayer.EntityFramework
 {
-    class EfHeadingDal
+    public class EfHeadingDal: GenericRepository<Heading>, IHeadingDal
     {
     }
 }

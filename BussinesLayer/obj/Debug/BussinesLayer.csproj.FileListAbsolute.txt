@@ -18,3 +18,15 @@ C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\BussinesLayer\bi
 C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\BussinesLayer\obj\Debug\BussinesLayer.csproj.CopyComplete
 C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\BussinesLayer\bin\Debug\FluentValidation.dll
 C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\BussinesLayer\bin\Debug\FluentValidation.xml
+C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\BussinesLayer\bin\Debug\LanguageExt.Core.dll
+C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\BussinesLayer\bin\Debug\System.Buffers.dll
+C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\BussinesLayer\bin\Debug\System.Memory.dll
+C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\BussinesLayer\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\BussinesLayer\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\BussinesLayer\bin\Debug\System.ValueTuple.dll
+C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\BussinesLayer\bin\Debug\LanguageExt.Core.xml
+C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\BussinesLayer\bin\Debug\System.Buffers.xml
+C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\BussinesLayer\bin\Debug\System.Memory.xml
+C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\BussinesLayer\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\BussinesLayer\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\BussinesLayer\bin\Debug\System.ValueTuple.xml
