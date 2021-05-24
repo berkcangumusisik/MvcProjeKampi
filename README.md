@@ -5,7 +5,7 @@ Repo Murat Yücedağ ile MVC Proje Kampı konularına paralel olarak geliştiril
 
 Eğitime ulaşmak için [tıklayınız](https://www.youtube.com/watch?v=yFToRUL6h8A&list=PLKnjBHu2xXNNQJehhCg--CzQQMHXTsFAb)
 <br>
-👍 Toplam 100 Dersten oluşacak kampın 40.derse gelinerek birinci ve ikinci sertifika görevi tamamlandı.
+👍 Toplam 100 Dersten oluşacak kampın 52.derse gelinerek birinci ve ikinci sertifika görevi tamamlandı.
 <br>
 ## 1. SERTİFİKA GÖREVİNE KADAR YAPILANLAR
 <ol>
@@ -21,7 +21,7 @@ Eğitime ulaşmak için [tıklayınız](https://www.youtube.com/watch?v=yFToRUL6
   <li>Kategori ekleme, silme, güncelleme desteği eklendi.</li>
 </ol>
 
-# Proje İlerleyişi
+## Proje İlerleyişi
 ### Ders 1-20
    - Giriş yapıldı ve proje oluşturuldu.
    - View, Controller ve Layout kavramları üzerinde duruldu.
