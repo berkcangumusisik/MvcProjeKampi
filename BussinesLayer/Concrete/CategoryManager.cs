@@ -14,9 +14,9 @@ namespace BussinesLayer.Concrete
 
     public class CategoryManager : ICategoryService
     {
-        ICategorydal _categoryDal;
+        ICategoryDal _categoryDal;
 
-        public CategoryManager(ICategorydal categoryDal)
+        public CategoryManager(ICategoryDal categoryDal)
         {
             _categoryDal = categoryDal;
         }

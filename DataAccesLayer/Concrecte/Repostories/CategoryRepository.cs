@@ -10,7 +10,7 @@ using EntityLayer.Concrete;
 
 namespace DataAccesLayer.Concrecte.Repostories
 {
-    public class CategoryRepository : ICategorydal
+    public class CategoryRepository : ICategoryDal
     {
         Context c = new Context();
         DbSet<Category> _object;

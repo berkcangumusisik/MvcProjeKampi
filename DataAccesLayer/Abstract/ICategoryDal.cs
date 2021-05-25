@@ -7,7 +7,7 @@ using EntityLayer.Concrete;
 
 namespace DataAccesLayer.Abstract
 {
-    public interface ICategorydal : IRepository<Category>
+    public interface ICategoryDal : IRepository<Category>
     {
 
     }

@@ -19,3 +19,5 @@ C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\DataAccesLayer\o
 C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\DataAccesLayer\obj\Debug\DataAccesLayer.Migrations.mig_writertitle_add.resources
 C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\DataAccesLayer\obj\Debug\DataAccesLayer.Migrations.mig_imagesizechange.resources
 C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\DataAccesLayer\obj\Debug\DataAccesLayer.Migrations.mig_writer_addstatus.resources
+C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\DataAccesLayer\obj\Debug\DataAccesLayer.Migrations.mig_contentstatusadd.resources
+C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\DataAccesLayer\obj\Debug\DataAccesLayer.Migrations.mig_headingstatusadd.resources

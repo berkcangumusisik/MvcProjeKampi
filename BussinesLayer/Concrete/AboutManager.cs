@@ -9,45 +9,43 @@ using EntityLayer.Concrete;
 
 namespace BussinesLayer.Concrete
 {
-    public class ContentManager : IContentService
+    public class AboutManager : IAboutService
     {
-        IContentDal _contentDal;
+        IAboutDal _aboutDal;
 
-        public ContentManager(IContentDal contentDal)
+        public AboutManager(IAboutDal aboutDal)
         {
-            _contentDal = contentDal;
+            _aboutDal = aboutDal;
         }
 
-        public void ContentAdd(Content content)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void ContentDelete(Content content)
+        public void AboutAdd(About about)
         {
             throw new NotImplementedException();
         }
 
-        public void ContentUpdate(Content content)
+        public void AboutDelete(About about)
         {
             throw new NotImplementedException();
         }
 
-        public Content GetByID(int id)
+        public void AboutUpdate(About about)
         {
             throw new NotImplementedException();
         }
 
-        public List<Content> GetList()
+        public About GetByID(int id)
         {
             throw new NotImplementedException();
         }
 
-        public List<Content> GetListByHeadingID(int id)
+        public List<About> GetList()
         {
-            return _contentDal.List(x => x.HeadingId == id);
+            throw new NotImplementedException();
         }
 
-        
+        public List<About> GetListByHeadingID(int id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
