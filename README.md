@@ -105,4 +105,4 @@ Eğitime ulaşmak için [tıklayınız](https://www.youtube.com/watch?v=yFToRUL6
    - Gelen kutusu teması hazırlandı ve tema Türkçe haline getirildi.
    - Mesaj listeleme işlemi ve ContactValidationRules (Mail kuralları) yazıldı.
    - Mesaj detayları için gerekli işlemler yapıldı.
-   - Mail sayfasında partial eklenerek menüyü sürekli her sayfa için tekrar yazımı engellendi. 
+   - Mesaj sayfasında partial eklenerek menüyü sürekli her sayfa için tekrar yazımı engellendi. 
