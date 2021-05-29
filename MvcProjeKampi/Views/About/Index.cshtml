@@ -1,38 +1,28 @@
-﻿
+﻿@using EntityLayer.Concrete
+@model List<About>
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
 <br>
-<h2>Hakkımızda</h2>
-<button class="btn btn-primary" data-toggle="modal" data-target="#Modal1">
-    Yeni Hakkımızda Yazı Girişi
-</button>
+<h2>Hakkımızda Veri Listesi</h2>
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Hakkımda Başlığı</th>
+        <th>Aktif Yap</th>
+        <th>Pasif Yap</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.AboutId</td>
+            <td>Başlık</td>
+            <td><a href="#" class="btn btn-success">Aktif Yap</a></td>
+            <td><a href="#" class="btn btn-danger">Pasif Yap</a></td>
+        </tr>
+    }
+</table>
 
-<div class="modal" id="Modal1">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h2 class="modal-title">Hakkımızda Metin Girişi</h2>
-            </div>
-            <form method="post" action="#">
-                <div class="modal-body">
-                    <label>Hakkımızda Metin 1</label>
-                    <input type="text" name="#" class="form-control" />
-                    <br />
-                    <label>Hakkımızda Metin 2</label>
-                    <input type="text" name="#" class="form-control" />
-                    <br />
-                    <label>Hakkımızda Görsel 1</label>
-                    <input type="text" name="#" class="form-control" />
-                    <br />
-                    <label>Hakkımızda Görsel 2</label>
-                    <input type="text" name="#" class="form-control" />
-                    <br />
-                    <button class="btn btn-success">Kaydet</button>
-                </div>
-            </form>
-        </div>
-    </div>
-</div>
+@Html.Action("AboutPartial","About")
