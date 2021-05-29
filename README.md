@@ -100,3 +100,9 @@ Eğitime ulaşmak için [tıklayınız](https://www.youtube.com/watch?v=yFToRUL6
    - Başlık isim ve kategori düzenleme işlemleri yapıldı.
    - Başlıkların aktif pasif özellikleri yapıldı.
    - Hakkımızda sayfası yapıldı ve popup eklendi.
+### Ders 57-60
+   - Hakkımızda sayfası tamamlandı ve popupta yazılan bilgiler tablo halinde yapıldı.
+   - Gelen kutusu teması hazırlandı ve tema Türkçe haline getirildi.
+   - Mesaj listeleme işlemi ve ContactValidationRules (Mail kuralları) yazıldı.
+   - Mesaj detayları için gerekli işlemler yapıldı.
+   - Mail sayfasında partial eklenerek menüyü sürekli her sayfa için tekrar yazımı engellendi. 
