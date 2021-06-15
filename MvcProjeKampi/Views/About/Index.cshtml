@@ -4,25 +4,39 @@
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
-
+@{ string status = "";}
+@{ string statusButton = "";}
 <br>
 <h2>Hakkımızda Veri Listesi</h2>
 <table class="table table-bordered">
     <tr>
-        <th>ID</th>
-        <th>Hakkımda Başlığı</th>
-        <th>Aktif Yap</th>
-        <th>Pasif Yap</th>
+        <th>Id</th>
+        <th>Hakkımda</th>
+        <th>Aktif veya Pasif İşlemi</th>
     </tr>
     @foreach (var item in Model)
     {
+        if (item.AboutStatus == true)
+        {
+            status = "Pasif Yap";
+        }
+        if (item.AboutStatus == false)
+        {
+            status = "Aktif Yap";
+        }
+        if (item.AboutStatus == true)
+        {
+            statusButton = "btn btn-danger";
+        }
+        if (item.AboutStatus == false)
+        {
+            statusButton = "btn btn-warning";
+        }
         <tr>
-            <td>@item.AboutId</td>
+            <th>@item.AboutId</th>
             <td>Başlık</td>
-            <td><a href="#" class="btn btn-success">Aktif Yap</a></td>
-            <td><a href="#" class="btn btn-danger">Pasif Yap</a></td>
+            <td><a href="/About/StatusActiveAndPassive/@item.AboutId" class="@statusButton">@status</a></td>
         </tr>
     }
 </table>
-
-@Html.Action("AboutPartial","About")
+@Html.Action("AboutPartial", "About")
