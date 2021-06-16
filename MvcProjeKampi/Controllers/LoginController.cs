@@ -8,10 +8,12 @@ using BussinesLayer.Abstract;
 using BussinesLayer.Concrete;
 using DataAccesLayer.Concrecte;
 using DataAccesLayer.EntityFramework;
+using EntityLayer.Concrete;
 using EntityLayer.Dto;
 
 namespace MvcProjeKampi.Controllers
 {
+    [AllowAnonymous]
     public class LoginController : Controller
     {
         IAuthService authService = new AuthManager(new AdminManager(new EfAdminDal()));
@@ -47,5 +49,29 @@ namespace MvcProjeKampi.Controllers
             FormsAuthentication.SignOut();
             return RedirectToAction("Index", "Login");
         }
+        [HttpGet]
+        public ActionResult WriterLogin()
+        {
+            return View();
+        }
+        
+        [HttpPost]
+        public ActionResult WriterLogin(Writer p)
+        {
+            Context c = new Context();
+            var writeruserinfo = c.Writers.FirstOrDefault(x => x.WriterMail == p.WriterMail && x.WriterPassword == p.WriterPassword);
+            if (writeruserinfo !=null)
+            {
+                FormsAuthentication.SetAuthCookie(writeruserinfo.WriterMail, false);
+                Session["WriterMail"] = writeruserinfo.WriterMail;
+                return RedirectToAction("MyContent", "WriterPanelContent");
+            }
+            else
+            {
+                ViewData["ErrorMessage"] = "Kullanıcı adı veya Parola yanlış";
+                return View();
+            }
+        }
     }
+
 }
