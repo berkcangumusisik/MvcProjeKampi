@@ -19,12 +19,14 @@ namespace MvcProjeKampi.Controllers
         [Authorize]
         public ActionResult Inbox()
         {
+
             var MessageList = messageManager.GetMessagesInbox();
             return View(MessageList);
         }
 
         public ActionResult SendBox()
         {
+
             var result = messageManager.GetMessageSendBox();
             return View(result);
         }
@@ -85,7 +87,7 @@ namespace MvcProjeKampi.Controllers
             }
             else if (button == "cancel")
             {
-                return RedirectToAction("SendBox");
+                return RedirectToAction("NewMessage");
             }
 
             return View();

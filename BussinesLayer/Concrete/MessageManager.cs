@@ -35,12 +35,22 @@ namespace BussinesLayer.Concrete
 
         public List<Message> GetMessageSendBox()
         {
-            return _messageDal.List(m => m.SenderMail == "gumusisikberkcan@gmail.com");
+            return _messageDal.List(m => m.SenderMail == "admin@gmail.com");
+        }
+
+        public List<Message> GetMessageSendBox(string sender)
+        {
+            return _messageDal.List(m => m.SenderMail == sender);
         }
 
         public List<Message> GetMessagesInbox()
         {
-            return _messageDal.List(m => m.ReceiverMail == "gumusisikberkcan@gmail.com");
+            return _messageDal.List(m => m.ReceiverMail == "admin@gmail.com");
+        }
+
+        public List<Message> GetMessagesInbox(string receiver)
+        {
+            return _messageDal.List(m => m.ReceiverMail == receiver);
         }
 
         public void Insert(Message message)
@@ -59,3 +69,4 @@ namespace BussinesLayer.Concrete
         }
     }
 }
+

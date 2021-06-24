@@ -1,4 +1,4 @@
-﻿
+﻿@model EntityLayer.Dto.WriterLoginDto
 @{
     Layout = null;
 }
@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="/AdminLTE-3.0.4/login-form-20/css/style.css">
+    <script src="https://www.google.com/recaptcha/api.js"></script>
 
 </head>
 <body class="img js-fullheight" style="  background-image: url(/AdminLTE-3.0.4/login-form-20/images/bg.jpg);">
@@ -40,6 +41,8 @@
                                 <input id="password-field" name="WriterPassword" type="password" class="form-control" placeholder="*****" required>
                                 <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
                             </div>
+                            <div class="g-recaptcha"  data-sitekey="6LfbKk8bAAAAANCu7ru76UgMZALxTsKX0c1734ip"></div>
+
                             <div class="form-group">
                                 <button type="submit" class="form-control btn btn-primary submit px-3">Giriş Yap</button>
                             </div>

@@ -11,6 +11,8 @@ namespace BussinesLayer.Abstract
     {
         void Insert(Message message);
         List<Message> GetMessagesInbox();
+        List<Message> GetMessagesInbox(string receiver);
+        List<Message> GetMessageSendBox(string sender);
         void Delete(Message message);
         void Update(Message message);
         Message GetById(int Id);

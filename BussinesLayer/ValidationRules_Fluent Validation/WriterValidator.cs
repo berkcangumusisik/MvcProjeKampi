@@ -19,9 +19,6 @@ namespace BussinesLayer.ValidationRules_Fluent_Validation
             RuleFor(x => x.WriterAbout).NotEmpty().WithMessage("Hakkında Kısmını Boş Geçemezsiniz.");
             RuleFor(x => x.WriterTitle).NotEmpty().WithMessage("Ünvan Kısmını Boş Geçemezsiniz.");
             RuleFor(x => x.WriterAbout).Must(MustBea).WithMessage("Hakkında Kısmında Mutlaka a Harfi Bulunmalıdır.");
-            RuleFor(x => x.WriterPassword).NotEmpty().WithMessage("Şifre Boş Geçilemez.");
-            RuleFor(x => x.WriterMail).EmailAddress().WithMessage("Mail Adresiniz example@example.com Şeklinde Olmalıdır.");
-            RuleFor(x => x.WriterPassword).MinimumLength(3).WithMessage("Şifre En Az 3 Karakter Olmalıdır.");
             RuleFor(x => x.WriterName).MinimumLength(3).WithMessage("İsim En Az 3 Karakter Olmalıdır.");
             RuleFor(x => x.WriterSurname).MinimumLength(3).WithMessage("Soy İsim En Az 3 Karakter Olmalıdır.");
 

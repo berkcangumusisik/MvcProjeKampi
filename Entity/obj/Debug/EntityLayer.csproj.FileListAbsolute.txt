@@ -29,3 +29,7 @@ C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\Entity\bin\Debug
 C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\Entity\bin\Debug\tr\System.Web.WebPages.resources.dll
 C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\Entity\bin\Debug\tr\System.Web.WebPages.Deployment.resources.dll
 C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\Entity\bin\Debug\tr\System.Web.WebPages.Razor.resources.dll
+C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\Entity\bin\Debug\PagedList.dll
+C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\Entity\bin\Debug\PagedList.Mvc.dll
+C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\Entity\bin\Debug\PagedList.xml
+C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\Entity\bin\Debug\PagedList.Mvc.xml

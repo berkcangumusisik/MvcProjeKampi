@@ -99,3 +99,7 @@ C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\MvcProjeKampi\bi
 C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\MvcProjeKampi\bin\EntityFramework.SqlServer.xml
 C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\MvcProjeKampi\bin\FluentValidation.dll
 C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\MvcProjeKampi\bin\FluentValidation.xml
+C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\MvcProjeKampi\bin\PagedList.dll
+C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\MvcProjeKampi\bin\PagedList.Mvc.dll
+C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\MvcProjeKampi\bin\PagedList.xml
+C:\Users\Lenovo\Desktop\Masaüstü\Berkcan\kodlar\MvcProjeKampi\MvcProjeKampi\bin\PagedList.Mvc.xml
