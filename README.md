@@ -5,7 +5,7 @@ Repo Murat Yücedağ ile MVC Proje Kampı konularına paralel olarak geliştiril
 
 Eğitime ulaşmak için [tıklayınız](https://www.youtube.com/watch?v=yFToRUL6h8A&list=PLKnjBHu2xXNNQJehhCg--CzQQMHXTsFAb)
 <br>
-👍 Toplam 100 Dersten oluşacak kampın 52.derse gelinerek birinci ve ikinci sertifika görevi tamamlandı.
+👍 Toplam 100 Dersten oluşacak kampın 72.derse gelinerek üç sertifika görevi tamamlandı.
 <br>
 ## 1. SERTİFİKA GÖREVİNE KADAR YAPILANLAR
 <ol>
@@ -19,6 +19,30 @@ Eğitime ulaşmak için [tıklayınız](https://www.youtube.com/watch?v=yFToRUL6
   <li>Seçilen Admin paneli yüklendi </li>
   <li>Seçilen Admin panelinin değişiklikleri yapılarak kendi temamıza göre güncelledik</li>
   <li>Kategori ekleme, silme, güncelleme desteği eklendi.</li>
+  <li>Ödev olarak istatistik sayfası oluşturuldu.</li>
+</ol>
+
+## 3. SERTİFİKA GÖREVİNE KADAR YAPILANLAR
+<ol>
+  <li>Başlık İşlemleri tamamlandı.</li>
+  <li>Hakkımızda sayfası yapıldı.</li>
+  <li>Mesaj Sayfası oluşturuldu.</li>
+  <li>404 Sayfası oluşturuldu.</li>
+  <li>Galeri Sayfası oluşturuldu.</li>
+  <li>Admin Login sayfası oluşturuldu.</li>
+  <li>Ödev olarak
+    <ol>
+  <li>Gelen Kutusuna okundu okunmadı seçeneği eklendi.</li>
+  <li>Okunmamış Mesaj Sayıları eklendi.</li>
+  <li>Hakkımızda sayfası aktif pasif işlemleri eklendi.</li>
+  <li>Admin Bilgileri hashlendi.</li>
+  <li>Oturum açma işlemleri mimariye taşındı.</li>
+  <li>Rolleme işlemi mimariye taşındı.
+    </ol>
+  </li>
+  <li>Yetenek kartı eklendi.</li>
+  </li>
+
 </ol>
 
 ## Proje İlerleyişi
@@ -106,3 +130,32 @@ Eğitime ulaşmak için [tıklayınız](https://www.youtube.com/watch?v=yFToRUL6
    - Mesaj listeleme işlemi ve ContactValidationRules (Mail kuralları) yazıldı.
    - Mesaj detayları için gerekli işlemler yapıldı.
    - Mesaj sayfasında partial eklenerek menüyü sürekli her sayfa için tekrar yazımı engellendi. 
+
+### Ders 61-64
+   - Mesajlar sınıfı işlemleri yapıldı.
+   - Mesaj Controller ve Admin mesaj işlemleri yapıldı.
+   - Yeni mesaj gönderme sayfası yapıldı.
+   - Yeni mesaj gönderme sayfası işlemleri bitirildi.
+### Ders 65-68
+   - Mesaj sayfası revizeleri yapıldı.
+   - Mesaj sayfası işlemleri tamamlandı.
+   - 404 Hata sayfasu yapıldı.
+   - Galeri yapıldı.
+### Ders 69-72
+   - Admin login sayfası eklendi, tema eklendi
+   - Admin login işlemleri yapıldı.
+   - Authentication ve Session işlemleri yapıldı.
+   - Rolleme işlemleri yapıldı.
+
+### Ders 73-76
+  - Yazar layoutu oluşturuldu.
+  - Yazar menüleri düzenlendi.
+  - Yazar Mesaj Sayfası işlemleri yapıldı.
+  - Yazar Başlık işlemleri yapıldı.
+  - Yazarın girdiği içerikler listelendi. 
+
+### Ders 77-80
+ - Yazar Login sayfası eklendi, tema eklendi.
+ - Yazar login işlemleri yapıldı.
+ - Authentication ve Session işlemleri yapıldı.
+ - Session Allow Anonymous ile giriş yapmadan sayfalara geçiş işlemleri engellendi ve her yazarın kendi bilgilerine erişmesi sağlandı.
