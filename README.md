@@ -179,5 +179,5 @@ Eğitime ulaşmak için [tıklayınız](https://www.youtube.com/watch?v=yFToRUL6
 
 ### Ders 89-92
  - Vitrin Teması Hazırlandı.
- - Vitrin Türkçeleştirildi.
+ - Vitrin Statik bir yapıda olup Türkçeleştirildi.
  - Entrylere arama özelliği getirildi.
