@@ -22,13 +22,13 @@ namespace MvcProjeKampi.Controllers
         IAuthService authService = new AuthManager(new AdminManager(new EfAdminDal()), new WriterManager(new EfWriterDal()));
 
         Context context = new Context();
+
         // GET: Login
         [HttpGet]
         public ActionResult Index()
         {
             return View();
         }
-
         [HttpPost]
         public ActionResult Index(LoginDto loginDto)
         {

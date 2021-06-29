@@ -11,6 +11,8 @@ using FluentValidation.Results;
 
 namespace MvcProjeKampi.Controllers
 {
+    [AllowAnonymous]
+
     public class WriterController : Controller
     {
         WriterManager wm = new WriterManager(new EfWriterDal());

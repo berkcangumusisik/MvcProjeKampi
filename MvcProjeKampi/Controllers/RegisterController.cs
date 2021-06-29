@@ -10,6 +10,7 @@ using EntityLayer.Dto;
 
 namespace MvcProjeKampi.Controllers
 {
+    [AllowAnonymous]
     public class RegisterController : Controller
     {
         IAuthService authService = new AuthManager(new AdminManager(new EfAdminDal()), new WriterManager(new EfWriterDal()));

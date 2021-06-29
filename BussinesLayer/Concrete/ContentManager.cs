@@ -38,10 +38,11 @@ namespace BussinesLayer.Concrete
             throw new NotImplementedException();
         }
 
-        public List<Content> GetList()
+        public List<Content> GetList(string p)
         {
-            throw new NotImplementedException();
+            return _contentDal.List(x => x.ContentValue.Contains(p));
         }
+
 
         public List<Content> GetListByHeadingID(int id)
         {

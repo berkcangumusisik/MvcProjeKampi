@@ -10,13 +10,13 @@ using EntityLayer.Concrete;
 using FluentValidation.Results;
 
 namespace MvcProjeKampi.Controllers
-{
+{ 
+    [AllowAnonymous]
     public class MessageController : Controller
     {
         MessageManager messageManager = new MessageManager(new EfMessageDal());
         MessageValidator messageValidator = new MessageValidator();
         // GET: Message
-        [Authorize]
         public ActionResult Inbox()
         {
 

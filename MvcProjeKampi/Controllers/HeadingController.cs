@@ -9,6 +9,7 @@ using EntityLayer.Concrete;
 
 namespace MvcProjeKampi.Controllers
 {
+    [AllowAnonymous]
     public class HeadingController : Controller
     {
         // GET: Heading
