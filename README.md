@@ -41,9 +41,14 @@ Eğitime ulaşmak için [tıklayınız](https://www.youtube.com/watch?v=yFToRUL6
     </ol>
   </li>
   <li>Yetenek kartı eklendi.</li>
-  </li>
-
 </ol>
+  
+## 4. SERTİFİKA GÖREVİNE KADAR YAPILANLAR
+<ol>
+  <li>Recaptcha entegrasyonu yapıldı.</li>
+  <li>Yazar giriş ve kayıt ekranı mimariye taşındı.</li>
+</ol>
+
 
 ## Proje İlerleyişi
 ### Ders 1-20
@@ -159,3 +164,15 @@ Eğitime ulaşmak için [tıklayınız](https://www.youtube.com/watch?v=yFToRUL6
  - Yazar login işlemleri yapıldı.
  - Authentication ve Session işlemleri yapıldı.
  - Session Allow Anonymous ile giriş yapmadan sayfalara geçiş işlemleri engellendi ve her yazarın kendi bilgilerine erişmesi sağlandı.
+
+### Ders 81-84
+ - Vitrin Sayfası Hazırlandı.
+ - Vitrin sayfasında tüm başlıklar listelendi.
+ - Vitrin sayfasında başlığa göre yazıların getirilmesi işlemi yapıldı.
+ - Başlıklara yeni entry girişi sağlandı.
+
+### Ders 85-88
+ - Sayfalama işlemi gerçekleştirildi.
+ - Mesajlarda session yönetimi yapıldı.
+ - Yazar profil sayfası ve güncelleme işlemi yapıldı.
+ - Login işlemi mimariye taşındı.
