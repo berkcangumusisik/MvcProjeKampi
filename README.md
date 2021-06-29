@@ -176,3 +176,8 @@ Eğitime ulaşmak için [tıklayınız](https://www.youtube.com/watch?v=yFToRUL6
  - Mesajlarda session yönetimi yapıldı.
  - Yazar profil sayfası ve güncelleme işlemi yapıldı.
  - Login işlemi mimariye taşındı.
+
+### Ders 89-92
+ - Vitrin Teması Hazırlandı.
+ - Vitrin Türkçeleştirildi.
+ - Entrylere arama özelliği getirildi.
