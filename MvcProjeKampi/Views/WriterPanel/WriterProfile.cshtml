@@ -11,6 +11,8 @@
 {
 <div class="form-group">
     @Html.HiddenFor(w => w.WriterID, new { @class = "form-control" })
+    @Html.HiddenFor(w => w.WriterPasswordHash, new { @class = "form-control" })
+    @Html.HiddenFor(w => w.WriterPasswordSalt, new { @class = "form-control" })
     @Html.Label("Yazar Adı")
     @Html.TextBoxFor(w => w.WriterName, new { @class = "form-control" })
     @Html.ValidationMessageFor(w => w.WriterName, "", new { @class = "text-danger" })
