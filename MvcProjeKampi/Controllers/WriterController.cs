@@ -34,6 +34,7 @@ namespace MvcProjeKampi.Controllers
             ValidationResult results = writervalidator.Validate(p);
             if (results.IsValid)
             {
+                p.WriterStatus = true;
                 wm.WriterAdd(p);
                 return RedirectToAction("Index");
             }
@@ -58,6 +59,7 @@ namespace MvcProjeKampi.Controllers
             ValidationResult results = writervalidator.Validate(p);
             if (results.IsValid)
             {
+                p.WriterStatus = true;
                 wm.WriterUpdate(p);
                 return RedirectToAction("Index");
             }

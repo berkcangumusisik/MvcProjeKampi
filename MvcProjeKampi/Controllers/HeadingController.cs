@@ -22,6 +22,11 @@ namespace MvcProjeKampi.Controllers
             var headingValues = hm.GetList();
             return View(headingValues);
         }
+        public ActionResult HeadingReport()
+        {
+            var HeadingValues = hm.GetList();
+            return View(HeadingValues);
+        }
         [HttpGet]
         public ActionResult AddHeading()
         {
@@ -44,6 +49,7 @@ namespace MvcProjeKampi.Controllers
         [HttpPost]
         public ActionResult AddHeading(Heading p)
         {
+            p.HeadingStatus = true;
             p.HeadingDate = DateTime.Parse(DateTime.Now.ToShortDateString());
             hm.HeadingAdd(p);
             return RedirectToAction("Index");

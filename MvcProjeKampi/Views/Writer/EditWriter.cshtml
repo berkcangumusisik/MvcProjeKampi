@@ -23,10 +23,6 @@
     @Html.TextBoxFor(x => x.WriterMail, new { @class = "form-control" })
     @Html.ValidationMessageFor(x => x.WriterMail, "", new { @style = "color:red" })
     <br />
-    @Html.Label("Yazar Şifresi")
-    @Html.TextBoxFor(x => x.WriterPassword, new { @class = "form-control" })
-    @Html.ValidationMessageFor(x => x.WriterPassword, "", new { @style = "color:red" })
-    <br />
     @Html.Label("Yazar Görsel Linki")
     @Html.TextBoxFor(x => x.WriterImage, new { @class = "form-control" })
     @Html.ValidationMessageFor(x => x.WriterImage, "", new { @style = "color:red" })

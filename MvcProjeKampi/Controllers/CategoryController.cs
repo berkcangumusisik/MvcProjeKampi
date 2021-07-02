@@ -37,6 +37,7 @@ namespace MvcProjeKampi.Controllers
             ValidationResult results = categoryValidator.Validate(p);
             if(results.IsValid)
             {
+                p.CategoryStatus = true;
                 cm.CategoryAdd(p);
                 return RedirectToAction("GetCategoryList");
             }

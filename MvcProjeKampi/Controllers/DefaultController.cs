@@ -25,5 +25,9 @@ namespace MvcProjeKampi.Controllers
             var result = contentManager.GetListByHeadingID(id);
             return PartialView(result);
         }
+        public ActionResult SweetAlert()
+        {
+            return View();
+        }
     }
 }

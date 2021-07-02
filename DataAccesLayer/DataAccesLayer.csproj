@@ -140,6 +140,18 @@
     <Compile Include="Migrations\202106151241207_mig_add_talent.designer.cs">
       <DependentUpon>202106151241207_mig_add_talent.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202107020525215_mig_writer_update.cs" />
+    <Compile Include="Migrations\202107020525215_mig_writer_update.designer.cs">
+      <DependentUpon>202107020525215_mig_writer_update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202107021023477_mig_writer_delete_password_hash.cs" />
+    <Compile Include="Migrations\202107021023477_mig_writer_delete_password_hash.designer.cs">
+      <DependentUpon>202107021023477_mig_writer_delete_password_hash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202107021041296_mig_password_hash.cs" />
+    <Compile Include="Migrations\202107021041296_mig_password_hash.designer.cs">
+      <DependentUpon>202107021041296_mig_password_hash.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -192,6 +204,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202106151241207_mig_add_talent.resx">
       <DependentUpon>202106151241207_mig_add_talent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202107020525215_mig_writer_update.resx">
+      <DependentUpon>202107020525215_mig_writer_update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202107021023477_mig_writer_delete_password_hash.resx">
+      <DependentUpon>202107021023477_mig_writer_delete_password_hash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202107021041296_mig_password_hash.resx">
+      <DependentUpon>202107021041296_mig_password_hash.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

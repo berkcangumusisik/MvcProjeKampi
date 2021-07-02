@@ -56,17 +56,16 @@ to get the desired effect
                     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                         <!-- Add icons to the links using the .nav-icon class
     with font-awesome or any other icon font library -->
-                        @if (User.IsInRole("A"))
-                        {
-                    <li class="nav-item has-treeview">
-                        <a href="/AdminCategory/Index/" class="nav-link ">
-                            <i class="nav-icon fas fa-tachometer-alt"></i>
-                            <p>
-                                Kategoriler
 
-                            </p>
-                        </a>
-                    </li>}
+                        <li class="nav-item has-treeview">
+                            <a href="/AdminCategory/Index/" class="nav-link ">
+                                <i class="nav-icon fas fa-tachometer-alt"></i>
+                                <p>
+                                    Kategoriler
+
+                                </p>
+                            </a>
+                        </li>
                         <li class="nav-item">
                             <a href="/Heading/Index/" class="nav-link">
                                 <i class="nav-icon fas fa-th"></i>
@@ -101,21 +100,21 @@ to get the desired effect
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="pages/charts/chartjs.html" class="nav-link">
+                                    <a href="/Chart/CategoryPieChart" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Grafik 1</p>
+                                        <p>Kategori-Başlık Grafiği</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="pages/charts/flot.html" class="nav-link">
+                                    <a href="/Chart/WriterColumnChart" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Grafik 2</p>
+                                        <p>Yazar-Başlık Sütun Grafiği</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="pages/charts/inline.html" class="nav-link">
+                                    <a href="/Chart/TalentLineChart" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Grafik 3</p>
+                                        <p>Yetenek-Oran Çizgi Grafiği</p>
                                     </a>
                                 </li>
                             </ul>
@@ -125,6 +124,14 @@ to get the desired effect
                                 <i class="nav-icon fas fa-tree"></i>
                                 <p>
                                     Hakkımızda
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item has-treeview">
+                            <a href="/Heading/HeadingReport/" class="nav-link">
+                                <i class="nav-icon fas fa-bars"></i>
+                                <p>
+                                    Raporlar
                                 </p>
                             </a>
                         </li>
@@ -161,6 +168,14 @@ to get the desired effect
                             </a>
                         </li>
                         <li class="nav-item has-treeview">
+                            <a href="/Default/SweetAlert/" class="nav-link">
+                                <i class="nav-icon far fa-map"></i>
+                                <p>
+                                    Sweet Alert
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item has-treeview">
                             <a href="/ErrorPage/Page404/" class="nav-link">
                                 <i class="nav-icon far fa-envelope"></i>
                                 <p>
@@ -169,22 +184,20 @@ to get the desired effect
                             </a>
                         </li>
                         <li class="nav-item has-treeview">
-                            <a href="/Home/HomePage/" class="nav-link">
+                            <a href="/Home/HomePage" class="nav-link">
                                 <i class="nav-icon fas fa-book"></i>
                                 <p>
                                     Siteye Git
                                 </p>
                             </a>
-
                         </li>
                         <li class="nav-item has-treeview">
-                            <a href="#" class="nav-link">
+                            <a href="/Login/LogOut/" class="nav-link">
                                 <i class="nav-icon fas fa-apple-alt"></i>
                                 <p>
-                                    Çıkış yap
+                                    Çıkış Yap
                                 </p>
                             </a>
-
                         </li>
                     </ul>
                 </nav>
@@ -206,7 +219,7 @@ to get the desired effect
     <!-- ./wrapper -->
     <!-- REQUIRED SCRIPTS -->
     <!-- jQuery -->
-    @*<script src="~/AdminLTE-3.0.4/plugins/jquery/jquery.min.js"></script>*@
+    <script src="~/AdminLTE-3.0.4/plugins/jquery/jquery.min.js"></script>
     <!-- Bootstrap -->
     <script src="~/AdminLTE-3.0.4/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- AdminLTE -->
