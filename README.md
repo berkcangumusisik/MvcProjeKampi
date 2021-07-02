@@ -181,3 +181,10 @@ Eğitime ulaşmak için [tıklayınız](https://www.youtube.com/watch?v=yFToRUL6
  - Vitrin Teması Hazırlandı.
  - Vitrin Statik bir yapıda olup Türkçeleştirildi.
  - Entrylere arama özelliği getirildi.
+ - 
+### Ders 93-96
+ - IFrame eklendi.
+ - Yazar görselleri düzeltildi.
+ - Google chartlar eklendi.
+ - Raporlama sayfası oluşturuldu.
+ - Yetkilendirme düzenlemelerinin ilk kısmı yapıldı.
