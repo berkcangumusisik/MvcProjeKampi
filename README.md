@@ -47,6 +47,13 @@ Eğitime ulaşmak için [tıklayınız](https://www.youtube.com/watch?v=yFToRUL6
 <ol>
   <li>Recaptcha entegrasyonu yapıldı.</li>
   <li>Yazar giriş ve kayıt ekranı mimariye taşındı.</li>
+  <li>Authentication ve Session işlemleri yapıldı.</li>
+  <li>Vitrin Sayfası oluşturuldu.</li>
+  <li>Her kullanıcıya kendi mesajlarının getirilme işlemi sağlandı.</li>
+  <li>Başlılara yeni yorum girişi sağlandı.</li>
+  <li>Yazar ve Admin sayfaları tamamlandı.</li>
+  <li>Tüm eksiklikler giderildi.</li>
+  <li>Proje canlıya taşındı.</li>
 </ol>
 
 
