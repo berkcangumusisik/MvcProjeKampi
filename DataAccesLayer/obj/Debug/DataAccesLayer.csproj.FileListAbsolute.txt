@@ -95,3 +95,5 @@ C:\Users\BERKCAN\Documents\GitHub\MvcProjeKampi\DataAccesLayer\obj\Debug\DataAcc
 C:\Users\BERKCAN\Documents\GitHub\MvcProjeKampi\DataAccesLayer\obj\Debug\DataAccesLayer.Migrations.mig_writer_update.resources
 C:\Users\BERKCAN\Documents\GitHub\MvcProjeKampi\DataAccesLayer\obj\Debug\DataAccesLayer.Migrations.mig_writer_delete_password_hash.resources
 C:\Users\BERKCAN\Documents\GitHub\MvcProjeKampi\DataAccesLayer\obj\Debug\DataAccesLayer.Migrations.mig_password_hash.resources
+C:\Users\BERKCAN\Documents\GitHub\MvcProjeKampi\DataAccesLayer\obj\Debug\DataAccesLayer.Migrations.mig_admin_role_add.resources
+C:\Users\BERKCAN\Documents\GitHub\MvcProjeKampi\DataAccesLayer\obj\Debug\DataAccesLayer.Migrations.mig_role_add.resources

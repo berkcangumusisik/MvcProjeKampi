@@ -47,10 +47,12 @@ namespace BussinesLayer.Concrete
                 AdminUserName = userNameHash,
                 AdminPasswordHash = passwordHash,
                 AdminPasswordSalt = passwordSalt,
-                AdminRole = "A"
+                RoleId = 1
             };
             _adminService.Add(admin);
         }
+
+        
         public bool WriterLogin(WriterLoginDto writerLoginDto)
         {
             using (var hmac = new System.Security.Cryptography.HMACSHA512())

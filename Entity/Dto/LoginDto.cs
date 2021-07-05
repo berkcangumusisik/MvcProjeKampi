@@ -10,6 +10,6 @@ namespace EntityLayer.Dto
     {
         public string AdminUserName { get; set; }
         public string AdminPassword { get; set; }
-        public string AdminRole { get; set; }
+        public string RoleId { get; set; }
     }
 }

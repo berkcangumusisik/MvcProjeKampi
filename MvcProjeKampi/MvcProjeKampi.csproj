@@ -2771,6 +2771,10 @@
     <Content Include="Views\Heading\HeadingReport.cshtml" />
     <Content Include="Views\Default\SweetAlert.cshtml" />
     <Content Include="Views\Authorization\Index.cshtml" />
+    <Content Include="Views\Authorization\AddAdmin.cshtml" />
+    <Content Include="Views\Authorization\UpdateAdmin.cshtml" />
+    <Content Include="Views\WriterPanelMessage\Draft.cshtml" />
+    <Content Include="Views\WriterPanelMessage\GetDraftDetails.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

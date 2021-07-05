@@ -19,6 +19,8 @@ namespace DataAccesLayer.Concrecte
         public DbSet<Message> Messages { get; set; }
         public DbSet<ImageFile> ImageFiles { get; set; }
         public DbSet<Admin> Admins { get; set; }
+        public DbSet<Role> Roles { get; set; }
+
         public DbSet<Talent> Talents { get; set; }
 
     }

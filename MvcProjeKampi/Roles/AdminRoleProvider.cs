@@ -51,7 +51,7 @@ namespace MvcProjeKampi.Roles
                     {
                         if (userNameHash[i] == item.AdminUserName[i])
                         {
-                            return new string[] { item.AdminRole };
+                            return new string[] { item.Role.RoleName };
                         }
                     }
                 }

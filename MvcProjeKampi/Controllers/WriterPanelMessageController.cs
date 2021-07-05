@@ -39,6 +39,21 @@ namespace MvcProjeKampi.Controllers
 
         public PartialViewResult MessagePartial()
         {
+ 
+            var sendMail = messageManager.GetMessageSendBox().Count();
+            ViewBag.sendMail = sendMail;
+
+            var receiverMail = messageManager.GetMessagesInbox().Count();
+            ViewBag.receiverMail = receiverMail;
+
+            var draftMail = messageManager.GetMessageSendBox().Where(m => m.IsDraft == true).Count();
+            ViewBag.draftMail = draftMail;
+
+            var readMessage = messageManager.GetMessagesInbox().Where(m => m.IsRead == true).Count();
+            ViewBag.readMessage = readMessage;
+
+            var unreadMessage = messageManager.GetAllRead().Count();
+            ViewBag.unreadMessage = unreadMessage;
             return PartialView();
         }
 
@@ -105,5 +120,61 @@ namespace MvcProjeKampi.Controllers
             return View();
         }
 
+        public ActionResult DeleteMessage(int id)
+        {
+            var result = messageManager.GetById(id);
+            if (result.Trash == true)
+            {
+                result.Trash = false;
+            }
+            else
+            {
+                result.Trash = true;
+            }
+            messageManager.Delete(result);
+            return RedirectToAction("Inbox");
+
+        }
+
+        public ActionResult Draft()
+        {
+            var result = messageManager.IsDraft();
+            return View(result);
+        }
+
+        public ActionResult GetDraftDetails(int id)
+        {
+            
+            var result = messageManager.GetById(id);
+            return View(result);
+        }
+
+        public ActionResult IsRead(int id)
+        {
+            var result = messageManager.GetById(id);
+            if (result.IsRead == false)
+            {
+                result.IsRead = true;
+            }
+            else
+            {
+                result.IsRead = false;
+            }
+            messageManager.Update(result);
+            return RedirectToAction("Inbox");
+        }
+
+        public ActionResult MessageRead()
+        {
+            var result = messageManager.GetMessagesInbox().Where(m => m.IsRead == true).ToList();
+            return View(result);
+        }
+
+        public ActionResult MessageUnRead()
+        {
+            var result = messageManager.GetAllRead();
+            return View(result);
+        }
     }
+
 }

@@ -86,6 +86,7 @@
     <Compile Include="Concrete\Content.cs" />
     <Compile Include="Concrete\Heading.cs" />
     <Compile Include="Concrete\Message.cs" />
+    <Compile Include="Concrete\Role.cs" />
     <Compile Include="Concrete\Talent.cs" />
     <Compile Include="Concrete\Writer.cs" />
     <Compile Include="Dto\LoginDto.cs" />
