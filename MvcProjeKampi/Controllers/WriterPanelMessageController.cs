@@ -25,31 +25,31 @@ namespace MvcProjeKampi.Controllers
 
         public ActionResult WriterInbox()
         {
-            string receiver = (string)Session["WriterEmail"];
+            string receiver = (string)Session["WriterMail"];
             var MessageList = messageManager.GetMessagesInbox(receiver);
             return View(MessageList);
         }
 
         public ActionResult WriterSendBox()
         {
-            string sender = (string)Session["WriterEmail"];
+            string sender = (string)Session["WriterMail"];
             var result = messageManager.GetMessageSendBox(sender);
             return View(result);
         }
 
         public PartialViewResult MessagePartial()
         {
- 
-            var sendMail = messageManager.GetMessageSendBox().Count();
+            string session = (string)Session["WriterMail"];
+            var sendMail = messageManager.GetMessageSendBox(session).Count();
             ViewBag.sendMail = sendMail;
 
-            var receiverMail = messageManager.GetMessagesInbox().Count();
+            var receiverMail = messageManager.GetMessagesInbox(session).Count();
             ViewBag.receiverMail = receiverMail;
 
-            var draftMail = messageManager.GetMessageSendBox().Where(m => m.IsDraft == true).Count();
+            var draftMail = messageManager.GetMessageSendBox(session).Where(m => m.IsDraft == true).Count();
             ViewBag.draftMail = draftMail;
 
-            var readMessage = messageManager.GetMessagesInbox().Where(m => m.IsRead == true).Count();
+            var readMessage = messageManager.GetMessagesInbox(session).Where(m => m.IsRead == true).Count();
             ViewBag.readMessage = readMessage;
 
             var unreadMessage = messageManager.GetAllRead().Count();
@@ -72,7 +72,7 @@ namespace MvcProjeKampi.Controllers
         [HttpPost]
         public ActionResult AddMessage(Message message, string button)
         {
-            string sender = (string)Session["WriterEmail"];
+            string sender = (string)Session["WriterMail"];
             ValidationResult validationResult = messageValidator.Validate(message);
             if (button == "add")
             {
@@ -98,7 +98,7 @@ namespace MvcProjeKampi.Controllers
                 if (validationResult.IsValid)
                 {
 
-                    message.SenderMail = "gizemyıldız@gmail.om";
+                    message.SenderMail = sender;
                     message.IsDraft = true;
                     message.MessageDate = DateTime.Parse(DateTime.Now.ToShortDateString());
                     messageManager.Insert(message);

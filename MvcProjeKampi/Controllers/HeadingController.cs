@@ -70,6 +70,7 @@ namespace MvcProjeKampi.Controllers
         [HttpPost]
         public ActionResult EditHeading(Heading p)
         {
+            p.HeadingStatus = true;
             hm.HeadingUpdate(p);
             return RedirectToAction("Index");
         }

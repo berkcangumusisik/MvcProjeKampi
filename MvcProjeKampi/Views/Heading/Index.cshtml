@@ -18,7 +18,7 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1>Projects</h1>
+                    <h1>Başlıklar</h1>
                 </div>
             </div>
         </div><!-- /.container-fluid -->
@@ -28,7 +28,7 @@
         <!-- Default box -->
         <div class="card">
             <div class="card-header">
-                <h3 class="card-title">Proje İşlemleri</h3>
+                <h3 class="card-title">Başlık İşlemleri</h3>
                 <div class="card-tools">
                     <button type="button" class="btn btn-tool" data-card-widget="collapse" data-toggle="tooltip" title="Collapse">
                         <i class="fas fa-minus"></i>
@@ -77,7 +77,7 @@
                             {
                                 color = "badge badge-info";
                             }
-                            if (item.Category.CategoryName == "Gezi")
+                            if (item.Category.CategoryName == "Seyahat")
                             {
                                 color = "badge badge-secondary";
                             }
@@ -102,7 +102,7 @@
                                 <td>
                                     <ul class="list-inline">
                                         <li class="list-inline-item">
-                                            <img alt="Avatar" class="table-avatar" src="@item.Writer.WriterImage">
+                                            <img alt="Avatar" class="table-avatar" src="@item.Writer.WriterImage">-@item.Writer.WriterName  @item.Writer.WriterSurname
                                         </li>
                                     </ul>
                                 </td>

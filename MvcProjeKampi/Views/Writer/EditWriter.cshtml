@@ -8,8 +8,9 @@
 @using (Html.BeginForm("EditWriter", "Writer", FormMethod.Post))
 {
 <div class="form-group">
-    @Html.Label("Yazar ID")
-    @Html.TextBoxFor(x => x.WriterID, new { @class = "form-control" })
+    @Html.HiddenFor(w => w.WriterID, new { @class = "form-control" })
+    @Html.HiddenFor(w => w.WriterPasswordHash, new { @class = "form-control" })
+    @Html.HiddenFor(w => w.WriterPasswordSalt, new { @class = "form-control" })
     <br />
     @Html.Label("Yazar Adı")
     @Html.TextBoxFor(x => x.WriterName, new { @class = "form-control" })

@@ -57,7 +57,7 @@ namespace MvcProjeKampi.Controllers
 
             FormsAuthentication.SignOut();
             Session.Abandon();
-            return RedirectToAction("Headings", "Default");
+            return RedirectToAction("AllHeading", "WriterPanel");
         }
 
         [HttpGet]

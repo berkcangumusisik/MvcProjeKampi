@@ -64,6 +64,7 @@ namespace MvcProjeKampi.Controllers
         [HttpPost]
         public ActionResult UpdateAdmin(Admin admin)
         {
+            admin.AdminStatus = true;
             adminManager.Update(admin);
             return RedirectToAction("Index");
         }
