@@ -39,21 +39,7 @@ namespace MvcProjeKampi.Controllers
 
         public PartialViewResult MessagePartial()
         {
-            string session = (string)Session["WriterMail"];
-            var sendMail = messageManager.GetMessageSendBox(session).Count();
-            ViewBag.sendMail = sendMail;
-
-            var receiverMail = messageManager.GetMessagesInbox(session).Count();
-            ViewBag.receiverMail = receiverMail;
-
-            var draftMail = messageManager.GetMessageSendBox(session).Where(m => m.IsDraft == true).Count();
-            ViewBag.draftMail = draftMail;
-
-            var readMessage = messageManager.GetMessagesInbox(session).Where(m => m.IsRead == true).Count();
-            ViewBag.readMessage = readMessage;
-
-            var unreadMessage = messageManager.GetAllRead().Count();
-            ViewBag.unreadMessage = unreadMessage;
+           
             return PartialView();
         }
 
