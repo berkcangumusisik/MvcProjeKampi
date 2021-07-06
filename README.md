@@ -47,6 +47,13 @@ Eğitime ulaşmak için [tıklayınız](https://www.youtube.com/watch?v=yFToRUL6
 <ol>
   <li>Recaptcha entegrasyonu yapıldı.</li>
   <li>Yazar giriş ve kayıt ekranı mimariye taşındı.</li>
+  <li>Authentication ve Session işlemleri yapıldı.</li>
+  <li>Vitrin Sayfası oluşturuldu.</li>
+  <li>Her kullanıcıya kendi mesajlarının getirilme işlemi sağlandı.</li>
+  <li>Başlılara yeni yorum girişi sağlandı.</li>
+  <li>Yazar ve Admin sayfaları tamamlandı.</li>
+  <li>Tüm eksiklikler giderildi.</li>
+  <li>Proje canlıya taşındı.</li>
 </ol>
 
 
@@ -188,3 +195,9 @@ Eğitime ulaşmak için [tıklayınız](https://www.youtube.com/watch?v=yFToRUL6
  - Google chartlar eklendi.
  - Raporlama sayfası oluşturuldu.
  - Yetkilendirme düzenlemelerinin ilk kısmı yapıldı.
+### Ders 97-99
+   - Yetkilendirme düzenlemelerinin son kısmı yapıldı.
+   - Proje publish işlemi ve projenin canlıya taşınması işlemleri yapıldı.
+   - Veri tabanının canlıya taşınması Ve backup işlemi yapıldı.
+### Ders 100
+   100.Ders **Final** Canlı Yayını İçin [Tıklayınız](https://youtu.be/2FV6SRyL7U0)
