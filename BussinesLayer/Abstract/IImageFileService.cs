@@ -10,5 +10,6 @@ namespace BussinesLayer.Abstract
     public interface IImageFileService
     {
         List<ImageFile> GetList();
+        void Add(ImageFile imageFile);
     }
 }

@@ -141,6 +141,7 @@
     <Compile Include="Controllers\AboutController.cs" />
     <Compile Include="Controllers\AdminCategoryController.cs" />
     <Compile Include="Controllers\AuthorizationController.cs" />
+    <Compile Include="Controllers\CalenderController.cs" />
     <Compile Include="Controllers\CategoryController.cs" />
     <Compile Include="Controllers\ChartController.cs" />
     <Compile Include="Controllers\ContactController.cs" />
@@ -2694,6 +2695,8 @@
     <Content Include="Views\Authorization\UpdateAdmin.cshtml" />
     <Content Include="Views\WriterPanelMessage\Draft.cshtml" />
     <Content Include="Views\WriterPanelMessage\GetDraftDetails.cshtml" />
+    <Content Include="Views\Gallery\ImageAdd.cshtml" />
+    <Content Include="Views\Calender\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
