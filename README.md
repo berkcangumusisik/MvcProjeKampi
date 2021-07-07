@@ -5,7 +5,8 @@ Repo Murat Yücedağ ile MVC Proje Kampı konularına paralel olarak geliştiril
 
 Eğitime ulaşmak için [tıklayınız](https://www.youtube.com/watch?v=yFToRUL6h8A&list=PLKnjBHu2xXNNQJehhCg--CzQQMHXTsFAb)
 <br>
-👍 Toplam 100 Dersten oluşacak kampın 72.derse gelinerek üç sertifika görevi tamamlandı.
+👍 Toplam 100 Dersten oluşacak kampın 100.derse gelinerek dört sertifika görevi tamamlandı. Aşağıdaki sertifikayı alma hakkına sahip oldum.
+<img src = "https://github.com/berkcangumusisik/MvcProjeKampi/blob/master/G%C3%B6rseller/BERKCAN%20G%C3%9CM%C3%9C%C5%9EI%C5%9EIK.jpg">
 <br>
 ## 1. SERTİFİKA GÖREVİNE KADAR YAPILANLAR
 <ol>
@@ -201,3 +202,26 @@ Eğitime ulaşmak için [tıklayınız](https://www.youtube.com/watch?v=yFToRUL6
    - Veri tabanının canlıya taşınması Ve backup işlemi yapıldı.
 ### Ders 100
    100.Ders **Final** Canlı Yayını İçin [Tıklayınız](https://youtu.be/2FV6SRyL7U0)
+
+# PROJEDEN GÖRSELLER
+<img src="https://github.com/berkcangumusisik/MvcProjeKampi/blob/master/G%C3%B6rseller/1.png">
+<br>
+<img src="https://github.com/berkcangumusisik/MvcProjeKampi/blob/master/G%C3%B6rseller/2.png">
+<br>
+<img src="https://github.com/berkcangumusisik/MvcProjeKampi/blob/master/G%C3%B6rseller/3.png">
+<br>
+<img src="https://github.com/berkcangumusisik/MvcProjeKampi/blob/master/G%C3%B6rseller/4.png">
+<br>
+<img src="https://github.com/berkcangumusisik/MvcProjeKampi/blob/master/G%C3%B6rseller/5.png">
+<br>
+<img src="https://github.com/berkcangumusisik/MvcProjeKampi/blob/master/G%C3%B6rseller/6.png">
+<br>
+<img src="https://github.com/berkcangumusisik/MvcProjeKampi/blob/master/G%C3%B6rseller/7.png">
+<br>
+<img src="https://github.com/berkcangumusisik/MvcProjeKampi/blob/master/G%C3%B6rseller/8.png">
+<br>
+<img src="https://github.com/berkcangumusisik/MvcProjeKampi/blob/master/G%C3%B6rseller/9.png">
+<br>
+<img src="https://github.com/berkcangumusisik/MvcProjeKampi/blob/master/G%C3%B6rseller/10.png">
+<br>
+<img src="https://github.com/berkcangumusisik/MvcProjeKampi/blob/master/Yetenek%20Kart%C4%B1m.png">
