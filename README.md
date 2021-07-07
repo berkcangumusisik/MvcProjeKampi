@@ -55,6 +55,13 @@ Eğitime ulaşmak için [tıklayınız](https://www.youtube.com/watch?v=yFToRUL6
   <li>Yazar ve Admin sayfaları tamamlandı.</li>
   <li>Tüm eksiklikler giderildi.</li>
   <li>Proje canlıya taşındı.</li>
+  <li>Ödev olarak
+    <ol>
+  <li>Yetenek kartına veri ekleme, silme ve güncelleme eklendi.</li>
+  <li>Galeri sayfasına görsel ekleme özelliği sağlandı.</li>
+  <li>Takvim eklendi.</li>
+    </ol>
+  </li>
 </ol>
 
 
