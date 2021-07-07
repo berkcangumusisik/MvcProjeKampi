@@ -11,11 +11,11 @@
 @using (Html.BeginForm("ImageAdd", "Gallery", FormMethod.Post, new { enctype = "multipart/form-data" }))
 {
 <div class="form-group">
-    @Html.Label("Açıklamayı Yazınız")
+    @Html.Label("Fotoğraf Başlığı Giriniz")
     @Html.TextBoxFor(x => x.ImageName, new { @class = "form-control" })
 
     <br /><br />
-    @Html.Label("Fotoğraf")
+    @Html.Label("Fotoğraf Yükleyiniz.")
     <br />
     <input type="file" name="ImagePath" />
     <br /><br />

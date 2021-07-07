@@ -164,6 +164,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Calender.cs" />
     <Compile Include="Models\CaptchaResult.cs" />
     <Compile Include="Models\CategoryChart.cs" />
     <Compile Include="Models\TalentChart.cs" />
