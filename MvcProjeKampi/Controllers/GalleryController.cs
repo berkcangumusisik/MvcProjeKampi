@@ -27,18 +27,18 @@ namespace MvcProjeKampi.Controllers
         }
 
         [HttpPost]
-        public ActionResult ImageAdd(ImageFile p)
+        public ActionResult ImageAdd(ImageFile ımageFile)
         {
             if(Request.Files.Count>0)
             {
                 string fileName = Path.GetFileName(Request.Files[0].FileName);
                 string expansion = Path.GetExtension(Request.Files[0].FileName);
-                string path = "/AdminLTE-3.0.4/images/"+fileName+ expansion;
+                string path = "/Images/" + fileName ;
                 Request.Files[0].SaveAs(Server.MapPath(path));
-                p.ImagePath= "/AdminLTE-3.0.4/images/" + fileName + expansion;
-                ifm.Add(p);
+                ımageFile.ImagePath = "/Images/" + fileName ;
+                ifm.Add(ımageFile);
                 return RedirectToAction("Index");
-                
+
             }
             return View();
 

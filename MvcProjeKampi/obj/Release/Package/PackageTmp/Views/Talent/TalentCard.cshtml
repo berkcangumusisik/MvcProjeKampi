@@ -1,0 +1,76 @@
+﻿@using EntityLayer.Concrete
+@model List<Talent>
+@{
+    ViewBag.Title = "TalentCard";
+    Layout = null;
+}
+
+
+<html>
+<head>
+    <title>Yeteneklerim Sayfası</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="~/AdminLTE-3.0.4/web1/css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href='//fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+
+    <script src="~/AdminLTE-3.0.4/web1/js/jquery.circlechart.js"></script>
+    <script src="~/AdminLTE-3.0.4/web1/js/jquery-1.11.1.min.js"></script>
+    <script src="~/AdminLTE-3.0.4/web1/js/easyResponsiveTabs.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#horizontalTab').easyResponsiveTabs({
+                type: 'default', //Types: default, vertical, accordion
+                width: 'auto', //auto or any width like 600px
+                fit: true   // 100% fit in a container
+            });
+        });
+    </script>
+</head>
+<body>
+    <!-- main -->
+    <div class="main">
+        <h1>Yetenek Kartım</h1>
+        <div class="main-info w3l">
+            <div class="main-row">
+
+                <a href="/Talent/Index" class="btn btn-outline-secondary">Ana Sayfaya Dön</a>
+                <br />
+                <a href="/Talent/AddTalent" class="btn btn-outline-secondary">Yetenek Ekle</a>
+                <!-- main-row-one -->
+                <div class="profile-grid logo wthree">
+                    <img src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/berkcan_g%C3%BCm%C3%BC%C5%9F%C4%B1%C5%9F%C4%B1k.jpg" />
+                    <h2>BERKCAN GÜMÜŞIŞIK</h2>
+                    <p>Bilgisayar ve Öğretim Teknolojileri Eğitimi</p>
+
+                </div>
+                <h3 class="title">Yeteneklerim</h3>
+                <div class="col-md-6 skills-right bar_group">
+
+                    @foreach (var item in Model)
+                    {
+                        <div class='bar_group__bar thin' label='@item.TalentName  (@item.Range%)' value='@item.Range'></div>
+                    }
+
+                </div>
+
+                <!--bar-js-->
+                <script src="~/AdminLTE-3.0.4/web1/js/bars.js"></script>
+                <div class="social-icons agileits">
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/berkcan-g%C3%BCm%C3%BC%C5%9F%C4%B1%C5%9F%C4%B1k-20452b199?originalSubdomain=tr" class="be"></a></li>
+                        
+
+                    </ul>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

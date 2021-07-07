@@ -1,0 +1,30 @@
+﻿@model EntityLayer.Concrete.Admin
+
+@{
+    ViewBag.Title = "UpdateAdmin";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Admin Güncelleme İşlemi </h2>
+@using (Html.BeginForm("UpdateAdmin", "Authorization", FormMethod.Post))
+{
+
+    <div class="form-group">
+        @Html.HiddenFor(c => c.AdminId, new { @class = "form-control" })
+        @Html.HiddenFor(c => c.AdminPasswordHash, new { @class = "form-control" })
+        @Html.HiddenFor(c => c.AdminPasswordSalt, new { @class = "form-control" })
+        @Html.HiddenFor(c => c.AdminUserName, new { @class = "form-control" })
+        <br />
+        @Html.Label("Admin Kullanıcı Adı")
+        @Html.TextBoxFor(c => c.AdminName, new { @class = "form-control" })
+        <br />
+        @Html.Label("Rol")
+        @Html.DropDownListFor(c => c.RoleId, (List<SelectListItem>)ViewBag.valueadmin, new { @class = "form-control" })
+        <br />
+
+        <button class="btn btn-success">Güncelle</button>
+
+
+    </div>
+
+}

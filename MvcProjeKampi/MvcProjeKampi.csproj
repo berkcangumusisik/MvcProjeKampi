@@ -2392,6 +2392,27 @@
     <Content Include="AdminLTE-3.0.4\colorlib-error-404-10\__MACOSX\._colorlib-error-404-10" />
     <Content Include="AdminLTE-3.0.4\colorlib-error-404-10\__MACOSX\colorlib-error-404-10\._css" />
     <Content Include="AdminLTE-3.0.4\colorlib-error-404-10\__MACOSX\colorlib-error-404-10\._img" />
+    <Content Include="AdminLTE-3.0.4\web\webfonts\fa-brands-400.eot" />
+    <Content Include="AdminLTE-3.0.4\web\webfonts\fa-brands-400.ttf" />
+    <Content Include="AdminLTE-3.0.4\web\webfonts\fa-brands-400.woff" />
+    <Content Include="AdminLTE-3.0.4\web\webfonts\fa-brands-400.woff2" />
+    <Content Include="AdminLTE-3.0.4\web\webfonts\fa-regular-400.eot" />
+    <Content Include="AdminLTE-3.0.4\web\webfonts\fa-regular-400.ttf" />
+    <Content Include="AdminLTE-3.0.4\web\webfonts\fa-regular-400.woff" />
+    <Content Include="AdminLTE-3.0.4\web\webfonts\fa-regular-400.woff2" />
+    <Content Include="AdminLTE-3.0.4\web\webfonts\fa-solid-900.eot" />
+    <Content Include="AdminLTE-3.0.4\web\webfonts\fa-solid-900.ttf" />
+    <Content Include="AdminLTE-3.0.4\web\webfonts\fa-solid-900.woff" />
+    <Content Include="AdminLTE-3.0.4\web\webfonts\fa-solid-900.woff2" />
+    <Content Include="AdminLTE-3.0.4\login-form-19\.DS_Store" />
+    <Content Include="AdminLTE-3.0.4\login-form-19\css\.DS_Store" />
+    <Content Include="AdminLTE-3.0.4\login-form-19\css\bootstrap\.DS_Store" />
+    <Content Include="AdminLTE-3.0.4\login-form-19\css\bootstrap\mixins\.DS_Store" />
+    <Content Include="AdminLTE-3.0.4\login-form-19\fonts\.DS_Store" />
+    <Content Include="AdminLTE-3.0.4\login-form-19\images\.DS_Store" />
+    <Content Include="AdminLTE-3.0.4\login-form-19\js\.DS_Store" />
+    <Content Include="AdminLTE-3.0.4\login-form-19\scss\.DS_Store" />
+    <Content Include="AdminLTE-3.0.4\login-form-19\scss\bootstrap\.DS_Store" />
     <Content Include="AdminLTE-3.0.4\login-form-19\scss\bootstrap\bootstrap-grid.scss" />
     <Content Include="AdminLTE-3.0.4\login-form-19\scss\bootstrap\bootstrap-reboot.scss" />
     <Content Include="AdminLTE-3.0.4\login-form-19\scss\bootstrap\bootstrap.scss" />
@@ -2482,15 +2503,6 @@
     <Content Include="AdminLTE-3.0.4\login-form-19\scss\bootstrap\_utilities.scss" />
     <Content Include="AdminLTE-3.0.4\login-form-19\scss\bootstrap\_variables.scss" />
     <Content Include="AdminLTE-3.0.4\login-form-19\scss\style.scss" />
-    <Content Include="AdminLTE-3.0.4\login-form-19\.DS_Store" />
-    <Content Include="AdminLTE-3.0.4\login-form-19\css\.DS_Store" />
-    <Content Include="AdminLTE-3.0.4\login-form-19\css\bootstrap\.DS_Store" />
-    <Content Include="AdminLTE-3.0.4\login-form-19\css\bootstrap\mixins\.DS_Store" />
-    <Content Include="AdminLTE-3.0.4\login-form-19\fonts\.DS_Store" />
-    <Content Include="AdminLTE-3.0.4\login-form-19\images\.DS_Store" />
-    <Content Include="AdminLTE-3.0.4\login-form-19\js\.DS_Store" />
-    <Content Include="AdminLTE-3.0.4\login-form-19\scss\.DS_Store" />
-    <Content Include="AdminLTE-3.0.4\login-form-19\scss\bootstrap\.DS_Store" />
     <Content Include="AdminLTE-3.0.4\login-form-20\.DS_Store" />
     <Content Include="AdminLTE-3.0.4\login-form-20\css\.DS_Store" />
     <Content Include="AdminLTE-3.0.4\login-form-20\css\bootstrap\.DS_Store" />
@@ -2590,18 +2602,6 @@
     <Content Include="AdminLTE-3.0.4\login-form-20\scss\bootstrap\_utilities.scss" />
     <Content Include="AdminLTE-3.0.4\login-form-20\scss\bootstrap\_variables.scss" />
     <Content Include="AdminLTE-3.0.4\login-form-20\scss\style.scss" />
-    <Content Include="AdminLTE-3.0.4\web\webfonts\fa-brands-400.eot" />
-    <Content Include="AdminLTE-3.0.4\web\webfonts\fa-brands-400.ttf" />
-    <Content Include="AdminLTE-3.0.4\web\webfonts\fa-brands-400.woff" />
-    <Content Include="AdminLTE-3.0.4\web\webfonts\fa-brands-400.woff2" />
-    <Content Include="AdminLTE-3.0.4\web\webfonts\fa-regular-400.eot" />
-    <Content Include="AdminLTE-3.0.4\web\webfonts\fa-regular-400.ttf" />
-    <Content Include="AdminLTE-3.0.4\web\webfonts\fa-regular-400.woff" />
-    <Content Include="AdminLTE-3.0.4\web\webfonts\fa-regular-400.woff2" />
-    <Content Include="AdminLTE-3.0.4\web\webfonts\fa-solid-900.eot" />
-    <Content Include="AdminLTE-3.0.4\web\webfonts\fa-solid-900.ttf" />
-    <Content Include="AdminLTE-3.0.4\web\webfonts\fa-solid-900.woff" />
-    <Content Include="AdminLTE-3.0.4\web\webfonts\fa-solid-900.woff2" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -2701,6 +2701,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Images\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

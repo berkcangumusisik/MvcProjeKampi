@@ -44,5 +44,6 @@ namespace MvcProjeKampi.Controllers
 
 			return Json(events.ToArray(), JsonRequestBehavior.AllowGet);
 		}
+
 	}
 }

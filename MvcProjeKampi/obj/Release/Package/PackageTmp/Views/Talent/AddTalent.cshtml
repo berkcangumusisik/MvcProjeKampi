@@ -1,0 +1,25 @@
+﻿@model EntityLayer.Concrete.Talent
+@{
+    ViewBag.Title = "AddTalent";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<h2>Yetenek Ekle</h2>
+
+
+@using (Html.BeginForm("AddTalent", "Talent", FormMethod.Post))
+{
+    <div class="form-group">
+        <div class="col-md-5">
+            @Html.Label("Yetenek Adı")
+            @Html.TextBoxFor(t => t.TalentName, new { @class = "form-control" })
+        </div>
+        <br />
+        <div class="col-md-5">
+            @Html.Label("Oran")
+            @Html.EditorFor(t => t.Range, new { htmlAttributes = new { @class = "form-control" } })
+            <br />
+        </div>
+
+        <button class=" btn btn-outline-success">Ekle</button>
+    </div>
+}
